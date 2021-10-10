@@ -1,5 +1,4 @@
 # TP Docker_1 - Ynov DevOps B3
-# TP Git - Ynov DevOps B3
 
 
 ## **Rendu :** Un fichier pdf : DEVOPS_DOCKER1_[NOM]\_[PRENOM].md
