@@ -28,7 +28,7 @@ Si vous avez des problèmes sur une command utilisez `docker [command] --help`.
   <summary>Hint</summary>
   
   
-  ```javascript
+  ```bash
   while true; do date; sleep 2; done
   ```
   
@@ -37,8 +37,13 @@ Si vous avez des problèmes sur une command utilisez `docker [command] --help`.
 - Regarder les logs en temps réel depuis l'hôte
 - Rentrer dans le container de afficher les processus
 - Kill le container
-  - Créer un fichier d'explication sur `docker kill`
- - 
+  - Créer un fichier d'explication sur `docker kill`. Que se passe-t-il côté systeme lorsqu'on lance la commande pour killer un container ? 
+ 
+ <details>
+  <summary>Hint</summary>
+  
+  Les utilitaires `ptrace` ou `ltrace` peuvent vous aider
+</details>
 
 ## Exercice 2 : Clean Container
 
