@@ -55,7 +55,7 @@ Si vous avez des problèmes sur une command utilisez `docker [command] --help`.
 - Afficher toutes les images
 - Supprimer les images en doublon
 
-- En **1** commande il faut : 
+- En **une** commande il faut : 
   - Lancer un container ubuntu avec la commande d'affichage de l'heure 
   - Rentrer dans le container
   - Supprimer le container lorsqu'on quitte le container
