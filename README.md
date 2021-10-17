@@ -36,7 +36,10 @@ Si vous avez des problèmes sur une command utilisez `docker [command] --help`.
 
 - Regarder les logs en temps réel depuis l'hôte
 - Rentrer dans le container et afficher les processus
-
+- Installer le paquet `figlet`
+- Transformer votre container en image
+- Ajouter lui un tag
+- Affichier la différences avec l'image de base
 
 ## Exercice 2 : Clean Container
 
@@ -48,8 +51,13 @@ Si vous avez des problèmes sur une command utilisez `docker [command] --help`.
 - Afficher toutes les images
 - Supprimer les images en doublon
 
+
+
+## Exercice 3 : AutoClean Container
+
 - En **une** commande il faut : 
   - Lancer un container ubuntu avec la commande d'affichage de l'heure 
   - Rentrer dans le container
+  - Executer un `ps auxf`
   - Supprimer le container lorsqu'on quitte le container
 
