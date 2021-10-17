@@ -61,3 +61,13 @@ Si vous avez des problèmes sur une command utilisez `docker [command] --help`.
   - Executer un `ps auxf`
   - Supprimer le container lorsqu'on quitte le container
 
+## Exercice 4 : Serveur HTTPD
+
+- Lancer un container Serveur web (Apache,nginx)
+- Depuis l'hôte lancer un `curl localhost`
+  - Exliquez le résultat
+- Récupérer l'adresse ip du container
+- Lancer `curl <adresse container httpd>`
+- Créer un nouveau container Debian/Ubuntu
+- Exécuter le `curl <adresse container httpd>` après avoir installé l'outils
+
