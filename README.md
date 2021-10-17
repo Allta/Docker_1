@@ -37,9 +37,9 @@ Si vous avez des problèmes sur une command utilisez `docker [command] --help`.
 - Regarder les logs en temps réel depuis l'hôte
 - Rentrer dans le container et afficher les processus
 - Installer le paquet `figlet`
+- Afficher la différences avec l'image de base
 - Transformer votre container en image
 - Ajouter lui un tag
-- Affichier la différences avec l'image de base
 
 ## Exercice 2 : Clean Container
 
