@@ -71,3 +71,10 @@ Si vous avez des problèmes sur une command utilisez `docker [command] --help`.
 - Créer un nouveau container Debian/Ubuntu
 - Exécuter le `curl <adresse container httpd>` après avoir installé l'outils
 
+## Bonus : Exercice 5 : Serveur HTTPD
+
+- Lancer un container Serveur web (Apache,nginx) en **mode détaché**
+  - Rendre le container accessible depuis le LAN d'Ynov
+  - Faire tourner le serveur web sur le port 8080
+  - Modifier la page d'accueil `index.html` depuis votre host.
+
