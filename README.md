@@ -22,7 +22,7 @@ Si vous avez des problèmes sur une command utilisez `docker [command] --help`.
  
 ## Exercice 1: Running container
 
-- Lancer un container Ubuntu en background qui affiche la date toutes les 2 secondes.
+- Lancer un container Ubuntu en *background* (mode détaché) qui affiche la date toutes les 2 secondes.
 
 <details>
   <summary>Hint</summary>
@@ -36,10 +36,19 @@ Si vous avez des problèmes sur une command utilisez `docker [command] --help`.
 
 - Regarder les logs en temps réel depuis l'hôte
 - Rentrer dans le container et afficher les processus
-- Installer le paquet `figlet`
+- Installer le paquet ` figlet`dans le container
+- Sortir gracieusement du container
 - Afficher la différences avec l'image de base
 - Transformer votre container en image
-- Ajouter lui un tag
+- Ajouter lui un tag de version **figlet**
+
+
+## Exercice 3 : AutoClean Container
+
+- En **une** commande il faut : 
+  - Lancer un container ubuntu avec la commande d'affichage de l'heure toutes les 2
+  - Afficher les logs sur l'hôte
+  - Supprimer le container lorsqu'on exit le process
 
 ## Exercice 2 : Clean Container
 
@@ -48,28 +57,17 @@ Si vous avez des problèmes sur une command utilisez `docker [command] --help`.
   - Stopped
   - Exited
 - Supprimer tout les containers stoppés
-- Afficher toutes les images
-- Supprimer les images en doublon
-
-
-
-## Exercice 3 : AutoClean Container
-
-- En **une** commande il faut : 
-  - Lancer un container ubuntu avec la commande d'affichage de l'heure 
-  - Rentrer dans le container
-  - Executer un `ps auxf`
-  - Supprimer le container lorsqu'on quitte le container
 
 ## Exercice 4 : Serveur HTTPD
 
-- Lancer un container Serveur web (Apache,nginx)
+- Lancer un container Serveur web (httpd)
 - Depuis l'hôte lancer un `curl localhost`
   - Exliquez le résultat
 - Récupérer l'adresse ip du container
 - Lancer `curl <adresse container httpd>`
 - Créer un nouveau container Debian/Ubuntu
 - Exécuter le `curl <adresse container httpd>` après avoir installé l'outils
+  - Exliquez le résultat 
 
 ## Bonus : Exercice 5 : Serveur HTTPD
 
